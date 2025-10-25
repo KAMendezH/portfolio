@@ -1,7 +1,7 @@
 // IMGS
 import calculadora from "../assets/imgsProjects/calculadora.jpeg"
 import EcoPizzas from "../assets/imgsProjects/EcoPizzas.jpeg"
-import InvitacionDigital from "../assets/imgsProjects/InvitacionDigital.jpeg"
+import InvitacionDigital from "../assets/imgsProjects/Invitaciondigital.jpeg"
 import LuzYCafe from "../assets/imgsProjects/LuzYCafe.jpeg"
 import MiEstancia from "../assets/imgsProjects/miestancia.jpeg"
 import CIMEC from "../assets/imgsProjects/sitiowebCIMEC.jpeg"
