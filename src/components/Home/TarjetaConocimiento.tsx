@@ -1,12 +1,10 @@
-import type { IconType } from 'react-icons';
-
+// TYPES
 interface Props{
-    icono: IconType
     texto: string
 }
 
 
-function TarjetaConocimiento( {icono, texto}: Props ){
+function TarjetaConocimiento( {texto}: Props ){
     return(
         <span>
             {/* <icono /> */}

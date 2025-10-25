@@ -17,11 +17,9 @@ import useStatusMusic from '../stores/PlayerMusicStore';
 import useMenuModal from '../stores/MenuModalStore';
 
 // HOOKS
-import { useBassLevel } from '../context/BassContext';
 
 function Header(){
     const ubicacion = useLocation().pathname;
-    const bassLevel = useBassLevel();
     const { status, open, close } = useStatusMusic();
     const { openModal } = useMenuModal();
     console.log(ubicacion)
