@@ -1,0 +1,14 @@
+.FilterTarget__content{
+    border-radius: 5px;
+    border: solid 2px #181818;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.FilterTarget__content--active{
+    background-color: #5e5e5e;
+}

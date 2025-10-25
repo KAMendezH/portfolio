@@ -1,0 +1,47 @@
+.TarjetaCertificates__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px #a09f9f;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 400px;
+    min-height: 175px;
+    gap: 1.5rem;
+    background-color: #383838;
+    box-shadow: 0 0 15px #000;
+    &:hover{
+        animation: animacionContent .4s ease-in-out 1 normal;
+        box-shadow: 0 0 20px #000 ,0 0 10px #00ffff;
+        background-color: #454646;
+    } 
+}
+.TarjetaCertificates__div__institucion{
+    text-align: center;
+    font-size: clamp(.8rem, 1vw, 1rem);
+    color: #a09f9f;
+}
+
+
+.TarjetaCertificates__nombreCertificado__text{
+    text-align: center;
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
+    font-family:  "Story Script", sans-serif;
+}
+.TarjetaCertificates__div__boton{
+    cursor: pointer;
+}
+
+@keyframes animacionContent {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translateY(-3px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

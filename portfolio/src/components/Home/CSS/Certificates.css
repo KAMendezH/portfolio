@@ -1,0 +1,19 @@
+.Certificates__content{
+    width: 100%;
+    /* background-color: rgb(121, 121, 121); */
+}
+.Certificates__contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+.Certificates__title{
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(3rem, 3vw, 3.5rem);
+    text-align: center;
+}

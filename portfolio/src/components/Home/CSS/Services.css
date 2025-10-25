@@ -1,0 +1,22 @@
+.Services__content{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+.Services__div__tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Services__text{
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(3rem, 3vw, 3.5rem);
+    text-align: center;
+}

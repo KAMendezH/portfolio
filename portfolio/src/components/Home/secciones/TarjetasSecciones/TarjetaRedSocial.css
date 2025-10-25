@@ -1,0 +1,14 @@
+.TarjetaRedSocial__content{
+    border: solid 2px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: 5px;
+    transition: transform .1s ease-in;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}

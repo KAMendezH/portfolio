@@ -1,0 +1,70 @@
+.MusicPlayer__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .5rem;
+    width: 100%; 
+    transition: .3s;
+}
+
+ 
+ /* Controllers */
+.MusicPlayer__controllers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.MusicPlayer__span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: #3b3b3b;
+    }
+}
+
+
+
+
+/* Name Song */
+ .MusicPlayer__name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.MusicPlayer__h4{
+    margin: 0;
+    font-size: clamp(.7rem, 1vw, .9rem);
+}  
+
+
+/* Responsive */
+
+@media (max-width: 380px ) {
+    .MusicPlayer__content{
+        display: grid;
+        transition: .3s;
+        grid-template-areas: 
+        "nameSong nameSong nameSong"
+        "controllers controllers music";
+    }
+    .MusicPlayer__controllers{
+        grid-area: controllers;
+    }
+    .MusicPlayer__name{
+        grid-area: nameSong;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .MusicPlayer__music{
+        grid-area: music;
+    }
+}

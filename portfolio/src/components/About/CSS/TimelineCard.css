@@ -1,0 +1,38 @@
+.TimelineCard {
+  background: #383838;
+  /* PRIMARY COLOR: #00ffff */
+  border-left: 4px solid #686868;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.TimelineCard__year {
+  font-weight: bold;
+  color: #686868;
+  font-size: 1.2rem;
+}
+
+.TimelineCard__title {
+  margin: 0.5rem 0;
+  font-size: 1.4rem;
+  
+}
+
+.TimelineCard__description {
+  font-size: 1rem;
+  color: #858484;
+}
+
+.TimelineCard__quote {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #727171;
+}
+.SobreMi__title{
+  font-family:  "Story Script", sans-serif;
+  font-size: clamp(3rem, 3vw, 3.5rem);
+  text-align: center;
+  margin: 1rem 0;
+}

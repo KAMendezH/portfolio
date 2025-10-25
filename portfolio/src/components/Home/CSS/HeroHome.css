@@ -1,0 +1,31 @@
+.HeroHome__content{
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.HeroHome__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.HeroHome__div1{
+    position: absolute;
+    top: 1.5rem;
+}
+.HeroHome__div2{
+    position: absolute;
+    bottom: 1.5rem;
+}
+.HeroHome__Tech__Icons{
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
+}
+.HeroHome__name{
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(3rem, 3vw, 3.5rem);
+  text-align: center;
+}

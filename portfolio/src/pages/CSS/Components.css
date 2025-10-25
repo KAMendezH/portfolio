@@ -1,0 +1,23 @@
+.Components__container{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.Components__title{
+    font-family:  "Story Script", sans-serif;
+    font-size: clamp(3rem, 3vw, 3.5rem);
+    text-align: center;
+    margin: 1rem 0;
+}
+.Components__contenedorImg{
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.Components__img{
+    width: 300px;
+    height: 300px;
+}

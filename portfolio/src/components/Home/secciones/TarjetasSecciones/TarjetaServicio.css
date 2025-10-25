@@ -1,0 +1,20 @@
+.TarjetaServicio__div__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    cursor: pointer;
+    background-color: #383838;
+    color: #fff;
+    border: solid 1px #969595;
+    border-radius: 5px;
+}
+
+.Tarjeta__div__Servicio__h3{
+    color: #ffffff;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    text-align: center;
+}

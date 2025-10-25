@@ -1,0 +1,5 @@
+.TextP{
+    margin: 0;
+    font-size: clamp(.8rem, 1vw, 1rem);
+    text-align: center;
+} 

@@ -1,0 +1,85 @@
+.Header__header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #181818;
+}
+.Header__name{
+    font-size: clamp(1.2rem, 1.5vw, 1.4rem);
+    padding: 0%;
+}
+.Header__div__name{
+    /* border-radius: 50%; */
+    height: 63px;
+    width: 63px;
+    background-color: rgb(58, 58, 58);
+    padding: .5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.Header__logo{
+    width: 70px;
+    height: 70px;
+}
+
+.Header__nav{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.Header__NavLink{
+    color: #fff;
+    &:hover{
+        text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+    }
+}
+.Header__NavLink__active{
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+.Header__div__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Header__div__iconsMusic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    &:hover{
+        background-color: #3b3b3b;
+    }
+}
+.Header__icons{
+    font-size: clamp(1.4rem, 1vw, 1.6rem);
+}
+
+
+
+
+@media (min-width: 501px) {
+    .div__openModal{
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .Header__div__logo{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+    .Header__nav{
+        display: none;
+    }
+}
+ 

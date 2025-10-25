@@ -1,0 +1,8 @@
+.TechFilter__content{
+    width: 100%;
+    padding: .3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: center;
+}

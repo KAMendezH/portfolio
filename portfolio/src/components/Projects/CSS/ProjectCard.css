@@ -1,0 +1,50 @@
+.TarjectCard__main{
+    width: clamp(250px, 350px , 100%);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    border: solid 1px transparent;
+}
+
+.TarjectCard__projectname{
+    font-size: clamp(1.2rem, 2vw, 1.4rem);
+}
+
+.TarjectCard__contenedor__img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.TarjectCard__img{
+    width: clamp(200px, 300px, 100%);
+    object-fit: contain;
+}
+
+.ProjectCard__caracteristicas{
+    text-align: center;
+    color: #a8a7a7;
+}
+.TarjectCard__contenedor__tecnologia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: .3rem;
+    flex-wrap: wrap;
+}
+.TarjectCard__tech{
+    padding: 3px 10px;
+    border: solid 1px #fff;
+    font-size: clamp(.8rem, 1vw, 1rem);
+}
+
+.ProjectCard__accion{
+    cursor: pointer;
+}
+.ProjectCard__accion__dissable{
+    cursor:no-drop
+}

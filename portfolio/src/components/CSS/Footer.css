@@ -1,0 +1,19 @@
+.Footer__content{
+    margin-top: 3rem;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    border: solid 2px;
+}
+.Footer__logo{
+    width: clamp(350px, 3vw, 500px);
+    object-fit: 1/1;
+}
+.Footer__containImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

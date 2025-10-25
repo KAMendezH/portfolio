@@ -1,0 +1,75 @@
+.TarjetaServicios__img{
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow(0 0 3px #fff);
+}
+
+.TarjetaServicio__content{
+    min-width: 10rem;
+    min-height: 15rem;
+    width: 100%;
+    max-width: 400px; 
+    padding: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: animation .2s ease-in-out, box-shadow .3s;
+    box-shadow: 0 0 15px #000;
+    background-color: #383838;
+    border: solid 1px #969595;
+    cursor: pointer;
+    &:hover{
+        animation: animacionContent .4s ease-in-out 1 normal;
+        box-shadow: 0 0 20px #000 ,0 0 10px #00ffff;
+        background-color: #454646;
+    } 
+}
+@keyframes animacionContent {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translateY(-3px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.TarjetaServicio__div__1, .TarjetaServicio__div__2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TarjetaServicio__div__3{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.TarjetaServicio__content:hover .TarjetaServicios__img{
+    transition: .2s;
+    filter: drop-shadow(0 0 2px #00ffff);
+}
+.TarjetaServicio__content:hover .TarjetaServicio__text{
+    transition: .2s;
+    text-shadow: 0 0 2px #00ffff;
+}
+.TarjetaServicio__a{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid #fff;
+    transition: .2s;
+    &:hover{
+        background-color: #00ffff80;
+    }
+}
+.TarjetaServicio__text{
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
+  text-align: center;
+}
+

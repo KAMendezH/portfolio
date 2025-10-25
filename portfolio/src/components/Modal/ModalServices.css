@@ -1,0 +1,53 @@
+.ModalServices__content{
+    background-color: #0009;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    margin: 0;
+    pointer-events: none;
+    z-index: 30;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.ModalServices__content--active{
+    transition: .4s;
+    opacity: 1;
+    pointer-events: all;
+}
+.ModalServices__div{
+    background-color: #fff;
+    border-radius: 15px;
+    width: clamp(350px, 4vw, 100%);
+    padding: 1rem;
+    background-color: #242424;
+}
+
+.ModalServices__div__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.ModalServices__icon{
+    font-size: 2rem;
+    background-color: #2e2e2e;
+    padding: .2rem;
+    border-radius: 7px;
+    color: #900;
+    
+}
+
+.ModalServices__h2{
+    color: #fff;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1.8rem, 2vw, 2rem);
+    text-align: center;
+}
